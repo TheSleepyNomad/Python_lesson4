@@ -8,9 +8,6 @@
 from itertools import cycle, count
 from random import randrange as rr
 
-if n == 0:
-    for _ in [1]:
-        yield _
 
 print("а) итератор, генерирующий целые числа, начиная с указанного")
 stop_number = 0
